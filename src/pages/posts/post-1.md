@@ -1,9 +1,10 @@
 ---
 title: Mon premier article de blog
+pubDate: 2026-05-03
 ---
-# Mon premier article de blog transformé
+# Mon premier article de blog transformé 2
 
-Publié le : 2022-07-01
+Publié le : 2026-07-01
 
 Bienvenue sur mon *nouveau blog* dédié à l'apprentissage d'Astro ! Ici, je vais partager mon parcours d'apprentissage en créant un nouveau site web.
 
