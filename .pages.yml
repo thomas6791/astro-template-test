@@ -1,0 +1,17 @@
+{
+  "collections": [
+    {
+      "name": "blog",
+      "label": "Articles",
+      "path": "src/pages/posts",
+      "format": "markdown",
+      "fields": [
+        { "name": "title", "type": "string", "required": true },
+        { "name": "description", "type": "text" },
+        { "name": "ubDate", "type": "date" },
+        { "name": "author", "type": "string" },
+        { "name": "draft", "type": "boolean" }
+      ]
+    }
+  ]
+}
