@@ -1,6 +1,6 @@
 ---
 title: Mon premier article de blog
-pubDate: 2026-05-03
+date: 2026-05-03
 ---
 # Mon premier article de blog transformé 2
 
@@ -13,6 +13,8 @@ Bienvenue sur mon *nouveau blog* dédié à l'apprentissage d'Astro ! Ici, je va
 1. **Installation d'Astro** : Tout d'abord, j'ai créé un nouveau projet Astro et configuré mes comptes en ligne.
 2. **Création de pages** : Ensuite, j'ai appris à créer des pages en créant de nouveaux fichiers `.astro` et en les plaçant dans le dossier `src/pages/`.
 3. **Création d'articles de blog** : C'est mon premier article de blog ! J'ai maintenant des pages Astro et des articles en Markdown !
+4. 
+  ![](</images/images_blog/Capture d’écran 2026-04-28 à 14.41.13.png>)
 
 ## Ce qui vient ensuite
 
