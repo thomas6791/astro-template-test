@@ -1,12 +1,23 @@
 
-media: media
 content:
-  - name: pages
-    label: Pages
-    type: collection
+  - name: posts
+    label: Posts
     path: src/pages/posts
+    type: collection
+    view:
+      fields: [title, date, description]
     fields:
       - name: title
+        label: Titre
+        type: string
+        required: true
+      - name: pubDate
+        label: Date
+        type: date
+        required: true
+      - name: description
+        label: Description
         type: string
       - name: body
+        label: Contenu
         type: rich-text
