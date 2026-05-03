@@ -1,7 +1,8 @@
 ---
 title: Mon premier article de blog
+pubDate: 2026-05-03
 ---
-# Mon premier article de blog transformé
+# Mon premier article de blog
 
 Publié le : 2022-07-01
 
