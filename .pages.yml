@@ -4,7 +4,7 @@ content:
   - name: pages
     label: Pages
     type: collection
-    path: src/pages/posts
+    path: pages/posts
     fields:
       - name: title
         type: string
