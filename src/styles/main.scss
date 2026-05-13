@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  box-sizing: content-box;
+  width: 100%;
+  background-color: #f1f5f9;
+  font-family: sans-serif;
+  border: solid 5px red;
+}
+body {
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+  width: 100%;
+  //max-width: 80ch;
+  border: solid 4px green;
+}
+main {
+  width: 100%;
+  //max-width: 1140px;
+  margin: auto;
+  min-height: 100vh;
+  box-sizing: content-box;
+  width: 100%;
+}
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  color: blue;
+}
