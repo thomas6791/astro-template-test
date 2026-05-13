@@ -1,4 +1,5 @@
 ---
 title: Acide salicylique - Analyse & dosage en laboratoire
+type: molecule
 ---
-<h1 data-pagefind-filter="molecule">Acide salicylique</h1>
+# Acide salicylique

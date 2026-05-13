@@ -1,4 +1,5 @@
 ---
 title: Theanine - Analyse & dosage en laboratoire
+type: molecule
 ---
-<h1 data-pagefind-filter="molecule">Theanine</h1>
+# Theanine

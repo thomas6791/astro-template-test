@@ -1,9 +1,10 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import pagefind from "astro-pagefind";
 
 // https://astro.build/config
 export default defineConfig({
-    integrations: [],
+    integrations: [pagefind()],
     i18n: {
     locales: ["es", "en", "fr"],
     defaultLocale: "fr",
