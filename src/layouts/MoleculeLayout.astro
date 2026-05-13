@@ -7,9 +7,11 @@ const { frontmatter } = Astro.props;
     <meta charset="utf-8">
   </head>
   <!-- ... -->
-  <article>
+  <article
+    data-pagefind-body
+    data-pagefind-filter={frontmatter.type ? `type:${frontmatter.type}` : undefined}
+  >
     <h1>{frontmatter.title}</h1>
-    <h2>Post author: {frontmatter.author}</h2>
     <p>{frontmatter.description}</p>
     <slot />
   </article>

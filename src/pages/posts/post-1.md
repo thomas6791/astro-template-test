@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/BlogPostLayout.astro
 title: Mon premier article de blog
 date: 2026-05-03
 ---
