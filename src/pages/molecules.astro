@@ -1,0 +1,21 @@
+---
+const allMolecules = Object.values(import.meta.glob('./molecules/*.md', { eager: true }));
+---
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width" />
+    <title>Astro</title>
+  </head>
+  <body>
+    <a href="/">Accueil</a>
+    <a href="/about/">À propos</a>
+    <a href="/blog/">Blog</a>
+
+    <h1>Mon blog d'apprentissage d'Astro</h1>
+    <p>Voici où je vais publier mon parcours d'apprentissage d'Astro.</p>
+    <ul>
+      {allMolecules.map((molecule: any) => <li><a href={molecule.url}>{molecule.frontmatter.title}</a></li>)}
+    </ul>
+  </body>
+</html>
