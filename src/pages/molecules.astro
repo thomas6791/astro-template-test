@@ -1,5 +1,6 @@
 ---
 import Search from "astro-pagefind/components/Search.astro";
+import '../styles/molecules.scss';
 const allMolecules = Object.values(import.meta.glob('./molecules/*.md', { eager: true }));
 //import {Search} from "astro-pagefind/components/Search.astro";
 ---
@@ -17,8 +18,8 @@ const allMolecules = Object.values(import.meta.glob('./molecules/*.md', { eager:
     <h1>Mon blog d'apprentissage d'Astro</h1>
     <p>Voici où je vais publier mon parcours d'apprentissage d'Astro.</p>
     <Search instance="search" className="pagefind-ui" searchboxOptions={{ placeholder: "search" }} filters={{ type: "molecule" }} />
-
-      {allMolecules.map((molecule: any) => <li><a href={molecule.url}>{molecule.frontmatter.title}</a></li>)}
+    <ul id="list_molecules">
+      {allMolecules.map((molecule: any) => <li><a href={molecule.url}>{molecule.frontmatter.molecule.toUpperCase()}</a></li>)}
     </ul>
   </body>
 </html>

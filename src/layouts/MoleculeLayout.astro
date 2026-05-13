@@ -1,4 +1,5 @@
 ---
+import '../styles/molecules.scss';
 const { frontmatter } = Astro.props;
 ---
 <html>
@@ -11,8 +12,13 @@ const { frontmatter } = Astro.props;
     data-pagefind-body
     data-pagefind-filter={frontmatter.type ? `type:${frontmatter.type}` : undefined}
   >
-    <h1>{frontmatter.title}</h1>
-    <p>{frontmatter.description}</p>
+    <div>
+        Schema Mol
+    </div>
+    <div>
+        <h1>{frontmatter.title}</h1>
+        <p>{frontmatter.description}</p>
+    </div>
     <slot />
   </article>
   <!-- ... -->
