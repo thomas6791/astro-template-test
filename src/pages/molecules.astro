@@ -17,7 +17,7 @@ const allMolecules = Object.values(import.meta.glob('./molecules/*.md', { eager:
 
     <h1>Mon blog d'apprentissage d'Astro</h1>
     <p>Voici où je vais publier mon parcours d'apprentissage d'Astro.</p>
-    <Search instance="search" className="pagefind-ui" searchboxOptions={{ placeholder: "search" }} filters={{ type: "molecule" }} />
+    <Search instance="search" className="pagefind-ui" searchboxOptions={{ placeholder: "search" }} filters={{ type: "molecule" }} excerptLength={0} />
     <ul id="list_molecules">
       {allMolecules.map((molecule: any) => <li><a href={molecule.url}>{molecule.frontmatter.molecule.toUpperCase()}</a></li>)}
     </ul>
